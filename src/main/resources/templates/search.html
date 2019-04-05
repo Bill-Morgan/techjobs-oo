@@ -31,6 +31,8 @@
     <hr />
 
     <div th:replace="list-jobs :: jobs-list"></div>
+    <h3 th:if="${jobs} and ${jobs.size()} == 0" th:text="'0 Result(s)'"></h3>
+
 
 </div>
 

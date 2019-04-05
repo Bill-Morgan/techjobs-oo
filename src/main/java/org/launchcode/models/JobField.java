@@ -1,5 +1,7 @@
 package org.launchcode.models;
 
+import org.springframework.boot.autoconfigure.batch.BatchProperties;
+
 /**
  * Created by LaunchCode
  */
