@@ -37,7 +37,6 @@ public class SearchController {
         } else {
             jobs = jobData.findByColumnAndValue(searchForm.getSearchField(), searchForm.getKeyword().toLowerCase());
         }
-        model.addAttribute("results", "");
         model.addAttribute("jobs", jobs);
 
         return "search";
